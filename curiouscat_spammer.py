@@ -6,7 +6,7 @@ import urllib
 import time
 
 url='https://curiouscat.me/api/v2/post/create'
-personid=input("Curiouscat addressees (number): ")
+personid=input("Curiouscat address (number): ")
 sleeptime=int(input("Sleep time (Milliseconds): "))
 message=input("Enter message you want to spam with: ")
 
