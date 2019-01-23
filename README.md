@@ -1,5 +1,5 @@
 # curiouscat_spammer
-Flood a curiouscat with questions making it unusable.
+Flood a curiouscat with questions making it unusable
 
 # installation
  - install python 3.6
