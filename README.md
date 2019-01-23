@@ -13,6 +13,5 @@ Flood a curiouscat with questions making it unusable.
  - go to the curious cat ex: curiouscat.me/hello
  - ctrl+shift+i and click on the network tab then ask a question with random text
  - click on the 'create form' and scroll down, the address is in the form data
- - Example: 
- 
- ![alt text](https://i.imgur.com/fQczXvv.gifv)
+
+![Example](https://i.imgur.com/fQczXvv.gif)
