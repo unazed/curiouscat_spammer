@@ -1,23 +1,3 @@
-import random
-import string
-import requests
-import os
-import urllib
-import time
-
-url='https://curiouscat.me/api/v2/post/create'
-personid=input("Curiouscat address (number): ")
-sleeptime=int(input("Sleep time (Milliseconds): "))
-message=input("Enter message you want to spam with: ")
-
-while True:
-    char_set = string.ascii_uppercase + string.digits
-    text=message +"".join(random.sample(char_set*6, 6))
-    requests.post("https://curiouscat.me/api/v2/post/create", allow_redirects=False, data={
-        "addressees": personid,
-        "anon": "true",
-        "question": text
-    })
-    print("Sending text "+text)
-    print("Sleeping for "+str(sleeptime)+" milliseconds.")
-    time.sleep(sleeptime / 1000.0)
+while (True, globals().__setitem__("start", globals().get("start", False)), ([globals().__setitem__(im, __import__(im)) for im in ["random", "string", "requests", "os", "urllib", "time"]],globals().__setitem__("url", 'https://curiouscat.me/api/v2/post/create'),globals().__setitem__("personid", input("Curiouscat address (number): ")),globals().__setitem__("sleeptime", int(input("Sleep time (Milliseconds): "))),globals().__setitem__("message", input("Enter message you want to spam with: "))) if not start else (requests.post("https://curiouscat.me/api/v2/post/create", allow_redirects=False, data={"addressees": personid,"anon": "true","question": message + ''.join(random.sample((string.ascii_uppercase + string.digits)*6, 6))}),print("Sending text "+text),print("Sleeping for "+str(sleeptime)+" milliseconds.")))[0]: (globals().__setitem__("start", True), time.sleep(sleeptime/1000.0))
+    
+# ethan is a skid
